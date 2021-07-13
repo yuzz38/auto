@@ -1,0 +1,159 @@
+@media (max-width: 1370px) {
+
+	.btn--two:hover {
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.5);
+}
+
+.button__call-link:hover::after {
+     width: 0; 
+    left: 0;
+    -webkit-transition: width 0s cubic-bezier(.29,.18,.26,.83);
+    transition: width 0s cubic-bezier(.29,.18,.26,.83);
+}	
+
+a.main__more:hover {
+    padding-right: 34px;
+}
+
+a.button__application:hover {
+    color: #364274;
+    text-decoration: none;
+}
+a.btn--price--two:hover::after {
+    width: 0;
+    left: 0;
+    -webkit-transition: width 0s cubic-bezier(.29,.18,.26,.83);
+    transition: width 0s cubic-bezier(.29,.18,.26,.83);
+}
+
+a.button-center:hover::after {
+    content: '';
+    width: 0;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    color: #364274;
+    left: 0;
+    color: #fff;
+    transform: translateX(0);
+}
+
+a.button-center:hover {
+	 color: #fff;
+}
+
+.btn:hover::after {
+    content: '';
+    width: 0;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(0);
+}
+
+.picture:hover:after, .picture:hover:before {
+    opacity: 0;
+    transition: 0s;
+}
+
+.section__more:hover {
+    padding-right: 31px;
+}
+
+a.article__button:hover::after {
+    width: 0;
+    left: 0;
+    -webkit-transition: width 0s cubic-bezier(.29,.18,.26,.83);
+    transition: width 0s cubic-bezier(.29,.18,.26,.83);
+}
+
+.btn--article:hover {
+    color: #364274;
+}
+
+a.confidentiality__link:hover::after {
+    content: '';
+    width: 0;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+a.pagination__item-link:hover {
+    text-decoration: none;
+     color: #0c2758; 
+     background-color: #fff; 
+}
+
+}
+
+@media (max-width: 1370px) {
+	.mobile__nav {
+		    transform: translateY(0);
+	}
+}
+
+@media (max-width: 990px) {
+	.mobile-nav--active {
+    transform: translateY(604px);
+}
+}
+
+
+@media (max-width: 425px) {
+.advantage__paragraph {
+    width: 84%;
+}
+
+}
+
+@media (max-width: 375px) {
+.advantage__paragraph {
+    width: 98%;
+}
+}
+
+
+@media (max-width: 320px) {
+.advantage__paragraph {
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
